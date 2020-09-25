@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Frontend Tips]]></title><description><![CDATA[Frontend Tips]]></description><link>https://alexmubarakshin.github.io/frontend-tips</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Sep 2020 11:57:37 GMT</lastBuildDate><item><title><![CDATA[Статьи]]></title><description><![CDATA[JavaScript/TypeScript 12 советов по внедрению TypeScript в React-приложениях CSS Стилизация обёрток для разметки в CSS]]></description><link>https://alexmubarakshin.github.io/frontend-tips/articles/</link><guid isPermaLink="false">https://alexmubarakshin.github.io/frontend-tips/articles/</guid><pubDate>Mon, 03 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;JavaScript/TypeScript&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://habr.com/ru/company/tinkoff/blog/505488/&quot;&gt;12 советов по внедрению TypeScript в React-приложениях&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;CSS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://ishadeed.com/article/styling-wrappers-css/&quot;&gt;Стилизация обёрток для разметки в CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Расшриения для IDE]]></title><description><![CDATA[VSCode Debugger for Chrome ESLint Prettier - Code formatter webpack IDEA Lines Sorter]]></description><link>https://alexmubarakshin.github.io/frontend-tips/ide_extensions/</link><guid isPermaLink="false">https://alexmubarakshin.github.io/frontend-tips/ide_extensions/</guid><pubDate>Mon, 01 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;VSCode&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome&quot;&gt;Debugger for Chrome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&quot;&gt;ESLint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&quot;&gt;Prettier - Code formatter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=jeremyrajan.webpack&quot;&gt;webpack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;IDEA&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://plugins.jetbrains.com/plugin/5919-lines-sorter/&quot;&gt;Lines Sorter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Frontend guide]]></title><description><![CDATA[☝️ РАЗДЕЛ НЕ ЗАКОНЧЕН При создании проекта необходимо сооблюдать единобрезие.
+Достичь его можно при использовании linter’ов, единого стиля…]]></description><link>https://alexmubarakshin.github.io/frontend-tips/frontend_guide/</link><guid isPermaLink="false">https://alexmubarakshin.github.io/frontend-tips/frontend_guide/</guid><pubDate>Fri, 29 May 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;☝️ &lt;strong&gt;РАЗДЕЛ НЕ ЗАКОНЧЕН&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;При создании проекта необходимо сооблюдать единобрезие.
+Достичь его можно при использовании linter’ов, единого стиля форматирования и “стандартной” структуры проекта.&lt;/p&gt;
+&lt;p&gt;Данный материал является субъективным мнение и возможно в каких-то моментах могут быть ошибки.&lt;/p&gt;
+&lt;h2&gt;Linter&lt;/h2&gt;
+&lt;p&gt;Для линтинга JavaScript и TypeScript проектов необходимо использовать &lt;a href=&quot;https://eslint.org/&quot;&gt;eslint&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Prettier&lt;/h2&gt;
+&lt;p&gt;Чтобы проект соответствовал единому стилю форматирования можно воспользоваться утилитой &lt;code class=&quot;language-text&quot;&gt;prettier&lt;/code&gt; с использованием следующего конфига:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;printWidth&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;150&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;semi&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;singleQuote&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;tabWidth&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;trailingComma&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;es5&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Струкрура проектов&lt;/h2&gt;
+&lt;h3&gt;Общее положение&lt;/h3&gt;
+&lt;p&gt;Весь исходный код должен быть расположен внутри папки src, и иметь следующую структуру:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;src
+├── assets          Ассеты приложения (Изображения и т.п)
+├── components      Слой отображения (Компоненты приложения)
+│   ├── containers  - View Контейнеры
+│   └── elements    - UI элементы (кнопки, инпуты и т.п)
+├── constants       Констатнты, тема приложения, текста и пр.
+├── services        Слой запросов к бекенду/localStorage/т.д
+├── store           Слой работы со стейтом (redux/mobx/т.д)
+├── typings         Общие типы данных
+└── utils           Вспомогательные функции и типы&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Контейнеры&lt;/h4&gt;
+&lt;p&gt;Конейнер должен состоять минимум из 3х файлов:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;index.tsx&lt;/code&gt; – Содержит импорты компонентов.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ComponentContainer.tsx&lt;/code&gt; – Содержит state и подключение HoC (redux connect). Так же может содержать в себе интерфейсы, но если они становятся громоздкими, вынести их в &lt;code class=&quot;language-text&quot;&gt;utils/libs&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ComponentView.tsx&lt;/code&gt; - Верстка и стили компонента. Не содержит state, может иметь вспомогательные функции для преабразовывания данных, например форматирование даты.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Так же опцианально может быть следующее:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;assets&lt;/code&gt; – Ассеты используемые в компоненте&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;__tests__&lt;/code&gt; – Тесты компонентов&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Пример&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;txt&quot;&gt;&lt;pre class=&quot;language-txt&quot;&gt;&lt;code class=&quot;language-txt&quot;&gt;containers
+└── user
+    ├── UserContainer.tsx
+    ├── UserView.tsx
+    ├── assets
+    │   └── someAsset.jpg
+    ├── elements
+    │   └── SomeElement.tsx
+    └── index.tsx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
